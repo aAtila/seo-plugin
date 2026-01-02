@@ -44,6 +44,19 @@ Comprehensive semantic audit methodology:
 
 Run explicitly when you want a thorough review before final QA.
 
+### content-triples-audit
+
+**Use when:** Reviewing content for semantic SEO quality
+
+Analyzes page content for SPO (Subject-Predicate-Object) triple quality:
+
+- Flags vague predicates ("helps", "improves", "enables")
+- Identifies unfalsifiable claims ("trusted by...", "leading provider")
+- Catches missing objects and disconnected entities
+- Produces summary table + section-by-section breakdown
+
+Analysis only - waits for explicit approval before suggesting rewrites.
+
 ## License
 
 MIT
