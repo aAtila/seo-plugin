@@ -15,15 +15,34 @@ Then restart Claude Code.
 
 ### semantic-html
 
-Catches common semantic HTML issues:
+**Use during:** Writing or reviewing HTML/JSX
+
+Checklist-based skill that catches common issues:
 
 - Div soup / divitis
 - Skipped heading levels
 - `onClick` on non-interactive elements
 - Missing or incorrect alt text
 - Improper landmark usage
+- Section vs article misuse
+- Form labeling issues
+- Redundant ARIA
 
 Triggers automatically when writing or reviewing HTML/JSX.
+
+### semantic-review
+
+**Use after:** Page implementation is complete
+
+Comprehensive semantic audit methodology:
+
+- Document-level assessment (meaning vs layout)
+- Systematic review across 6 lenses
+- Severity classification (sound/ambiguous/incorrect)
+- Impact categorization (low/structural/systemic)
+- Analysis-only mode (no auto-fixing)
+
+Run explicitly when you want a thorough review before final QA.
 
 ## License
 
