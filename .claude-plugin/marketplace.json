@@ -1,0 +1,12 @@
+{
+  "name": "seo-dev",
+  "owner": {
+    "name": "Atila Alacan"
+  },
+  "plugins": [
+    {
+      "name": "seo",
+      "source": "./"
+    }
+  ]
+}
